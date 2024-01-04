@@ -1,3 +1,29 @@
+/* CardPage.css */
+
+/* CardPage.css */
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse-heading {
+    text-align: center;
+    margin-top: 2%;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: blue; /* Change color as needed */
+    animation: pulse 2s ease-in-out infinite; /* Adjust animation duration or other properties as desired */
+}
+
 .card:hover{
     cursor: pointer;
     box-shadow: 0px 12px 30px 0px rgb(38, 37, 37);
