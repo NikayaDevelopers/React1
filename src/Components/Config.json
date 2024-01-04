@@ -1,0 +1,30 @@
+[
+    {
+        "title": "IT Staffing and Consulting",
+        "text": "We pride ourselves on our vast and deep network of qualified IT talent, which is carefully vetted to ensure that clients receive the best possible fit",
+        "img": "staff",
+        "link":"/CarouselPage"
+    },
+     {
+        "title": "Web Applications",
+        "text": "At Nikaya we have a team of skilled UI/UX designers who work closely with our developers to ensure that your web application is not only functional but also visually appealing and user-friendly.",
+        "img": "webapp",
+        "link":"/"
+    },
+    {
+        "title": "Mobile applications",
+        "text": "At our company, we specialize in providing high-quality, custom mobile application development services that cater to your business needs.",
+        "img": "mobileapp",
+        "link":"/"
+    },
+    
+    {
+        "title": "Cloud & Devops",
+        "text": "In today’s digital age, businesses need to be agile and efficient to stay ahead of the competition. At Nikaya, we offer Cloud and DevOps services to help businesses streamline their IT operations and achieve optimal performance.",
+        "img": "cloud",
+        "link":"/"
+    }
+
+    
+    
+]

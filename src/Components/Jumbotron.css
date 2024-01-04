@@ -1,0 +1,37 @@
+/* Jumbotron.css */
+.jumbotron {
+    padding: 40px; /* Padding around the content */
+    background-color: #f8f9fa; /* Background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+  }
+  
+  .jumbotron img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Margin below the image */
+  }
+  
+  .jumbotron-content {
+    color: #333; /* Text color */
+  }
+  
+  .jumbotron-content h1 {
+    font-size: 2.5rem; /* Heading font size */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  .jumbotron-content .lead {
+    font-size: 1.25rem; /* Lead text font size */
+  }
+  
+  .jumbotron-content p {
+    font-size: 1rem; /* Regular text font size */
+  }
+  
+  .jumbotron-content hr {
+    border-top: 1px solid #ccc; /* Horizontal line style */
+    margin: 20px 0; /* Margin for the horizontal line */
+  }
+  
