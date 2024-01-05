@@ -33,8 +33,8 @@ function CarouselPage() {
       />
 
       <Carousel.Caption>
-        <h3>People are our asset</h3>
-        <p>Quality is never an accident; it is always the result of intelligent effort.</p>
+        <h3 style={{ fontSize: '2.5rem', fontWeight: 'bold' }}>People are our asset</h3>
+        <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Quality is never an accident; it is always the result of intelligent effort.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -45,8 +45,8 @@ function CarouselPage() {
       />
 
       <Carousel.Caption>
-        <h3>We don’t just build software; we architect digital experiences.</h3>
-        <p>
+        <h3 style={{ fontSize: '2.5rem', fontWeight: 'bold' }}>We don’t just build software; we architect digital experiences.</h3>
+        <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
           We Prioritize a healthy atmosphere for Consultant's growth
         </p>
       </Carousel.Caption>

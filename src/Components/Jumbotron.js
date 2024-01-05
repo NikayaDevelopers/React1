@@ -1,6 +1,7 @@
 import React from 'react';
-import './Jumbotron.css'; // Import your custom CSS file
-import about from '../images/about.jpg'
+import './Jumbotron.css';
+import about from '../images/about.jpg';
+
 const JumbotronWithImage = () => {
   return (
     <div className="jumbotron jumbotron-fluid">
@@ -8,7 +9,7 @@ const JumbotronWithImage = () => {
         <div className="row">
           <div className="col-md-6">
             <img
-              src={about} // Replace with your image URL
+              src={about}
               className="img-fluid"
               alt="Placeholder"
             />
@@ -20,9 +21,9 @@ const JumbotronWithImage = () => {
               <hr className="my-4" />
               <p>Nikaya is a trusted provider of comprehensive IT staffing and consulting solutions. With a deep understanding of clients' unique needs, we are dedicated to helping them build successful teams by delivering the highest quality IT staffing solutions. Our rigorous screening methods and extensive database of qualified resources ensure that we provide the right talent to help clients achieve their goals.</p>
               <p className="lead">
-              <a className="btn btn-primary btn-lg" href="/Carousel" role="button">
-            Learn more
-          </a>
+                <a className="btn btn-primary btn-lg" href="/Carousel" role="button">
+                  Learn more
+                </a>
               </p>
             </div>
           </div>
@@ -31,4 +32,5 @@ const JumbotronWithImage = () => {
     </div>
   );
 };
+
 export default JumbotronWithImage;

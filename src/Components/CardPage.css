@@ -21,7 +21,7 @@
     font-size: 40px;
     font-weight: bold;
     color: blue; /* Change color as needed */
-    animation: pulse 2s ease-in-out infinite; /* Adjust animation duration or other properties as desired */
+    animation: pulse 1s ease-in-out infinite; /* Adjust animation duration or other properties as desired */
 }
 
 .card:hover{
