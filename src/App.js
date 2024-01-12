@@ -3,14 +3,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CarouselPage from './CarouselPage';
 import Jumbotron from './Components/Jumbotron';
 import CardPage from './Components/CardPage';
-import Navigationbar from './Navigationbar';
 import Contact from './Components/Contact';
 import CareerSection from './Components/CareerSection';
+import  Navbar1  from './Components/Navbar1';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Navigationbar />
+    
+      
+      <Navbar1 />
+      
       <CarouselPage />
 
       <div className="my-4"> {/* Margin added between components */}
@@ -27,6 +32,7 @@ function App() {
 
       <div className="my-4"> {/* Margin added between components */}
         <Contact />
+        
       </div>
     </div>
   );

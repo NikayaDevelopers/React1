@@ -5,4 +5,8 @@
     top: 0;
     z-index: 1000;
   }
-  
+  /* Add custom CSS */
+.content {
+  padding-top: 60px; /* Adjust this value based on the height of your fixed-top navigation bar */
+  /* Other styles */
+}
