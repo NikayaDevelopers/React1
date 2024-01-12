@@ -31,7 +31,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='carousel-container' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
                 <Link activeClass='active' to='jumbotron-fluid' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
                 <Link activeClass='active' to='services-container' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Services</Link>
-                <Link activeClass='active' to='CareerSection' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Career</Link>
+                <Link activeClass='active' to='career-section' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Career</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
             </div>
         </nav>
