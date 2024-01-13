@@ -17,23 +17,24 @@ function App() {
       <Navbar1 />
       
       <CarouselPage />
+      <div className="my-4"> 
 
-      <div className="my-4"> {/* Margin added between components */}
+       {/* Margin added between components */}
         <Jumbotron />
-      </div>
+          
+        </div>
 
-      <div className="my-4"> {/* Margin added between components */}
+       {/* Margin added between components */}
         <CardPage />
-      </div>
+      
 
-      <div className="my-4"> {/* Margin added between components */}
+       {/* Margin added between components */}
         <CareerSection />
-      </div>
+    
 
-      <div className="my-4"> {/* Margin added between components */}
+      {/* Margin added between components */}
         <Contact />
-        
-      </div>
+    
     </div>
   );
 }

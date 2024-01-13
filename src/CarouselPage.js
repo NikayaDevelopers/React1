@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel, Button } from 'react-bootstrap';
+import { Carousel} from 'react-bootstrap';
 import img1 from './images/img1.jpg';
 import img2 from './images/img2.jpg';
 import img3 from './images/img3.jpg';
@@ -24,12 +24,8 @@ class CarouselPage extends Component {
                 Code your dreams, craft solutions: Where software meets success at Nikaya
               </p>
               <div className="d-inline-block">
-                <Button variant="primary" href="/Jumbotron" className="me-4">
-                  About Us
-                </Button>
-                <Button variant="primary" href="/CardPage" className="me-4">
-                  Services
-                </Button>
+                
+                
               </div>
             </Carousel.Caption>
           </Carousel.Item>

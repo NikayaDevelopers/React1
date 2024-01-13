@@ -30,3 +30,7 @@
     transform: scale(1.1,1.1);
     transition: all 800ms;
 }
+services-container{
+    position: relative; /* Ensure the heading has a relative position */
+    z-index: 3; 
+}
